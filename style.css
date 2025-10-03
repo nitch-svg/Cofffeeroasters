@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.first_section {
+  width: 1440px;
+  height: 800px;
+  background: #f3d7b7;
+}
+
+.links {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+ul :hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.goodcoffee_info {
+  width: 464px;
+  height: 367px;
+  border-radius: 100px;
+  margin-top: 136px;
+  margin-left: 50px;
+}
+
+.goodcoffee_h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 39px;
+}
+
+.goodcoffee_text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 39px;
+}
+
+.goodcoffee_btn {
+  width: 193px;
+  height: 51px;
+  border: none;
+  border-radius: 100px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  gap: 10px;
+  background-color: #0a775f;
+  cursor: pointer;
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.goodcoffee_btn:hover {
+  transform: scale(1.05);
+  background-color: #0a8a6b;
+  transition: 0.4s;
+  -webkit-box-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+  text-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+}
+
+.links:hover {
+  color: #0a775f;
+  transition: 0.3s;
+  -webkit-text-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+  -moz-text-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+  text-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+}
+
+.coffecake {
+  width: 710px;
+  height: 694px;
+  position: absolute;
+  top: 176px;
+  left: 787px;
+}
+
+.alfred_img {
+  width: 159.9999961831204px;
+  height: 159.9999961831204px;
+  position: absolute;
+  top: 115px;
+  left: 732px;
+}
+
+.h1_ourcollection {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variant: small-caps;
+  margin-top: 100px;
+}
+
+.pakets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paket_info {
+  display: flex;
+  flex-direction: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 220px;
+  padding-top: 30px;
+}
+
+.paket_h3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-variant: small-caps;
+  color: #333333;
+  text-align: start;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.paket_text {
+  width: 454.2583312988281px;
+  height: 68px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: start;
+}
+
+.paket_img {
+  width: 451.25px;
+  height: 375px;
+}
+
+footer {
+  width: 1440px;
+  height: 200px;
+  background: #f3d7b7;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 340px;
+}
+
+ul {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.apps {
+  display: flex;
+  gap: 20px;
+}
+
+.aboutus_section {
+  background: #f3d7b7;
+  width: 1440px;
+  height: 720px;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+
+.aboutus_info {
+  width: 444px;
+  border-radius: 100px;
+  margin-top: 196px;
+  margin-left: 30px;
+}
+
+.aboutus_h1 {
+  margin-bottom: 80px;
+}
+
+.coffeemachine_img {
+  margin-top: 130px;
+  border-radius: 20px;
+}
+
+.aboutus_text {
+  text-align: start;
+}
+
+.alfred_imgtwo {
+  position: absolute;
+  top: 95px;
+  left: 690px;
+}
+
+.ourcommitment_section {
+  width: 1440px;
+  height: 720px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ourcommitment {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-variant: small-caps;
+}
+
+.ourcommitment_text {
+  width: 646.3881225585938px;
+  height: 207.48768615722656px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 40px;
+}
+
+.uncompromise {
+  background-color: #c99b67;
+  width: 1440px;
+  height: 510px;
+  padding: 170px 40px;
+}
+
+.twogirls_img {
+  position: absolute;
+  top: 1250px;
+  left: 1014px;
+}
+
+.uncompromise_h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-variant: small-caps;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.uncompromise_text {
+  width: 646.3881225585938px;
+  height: 207.48768615722656px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
